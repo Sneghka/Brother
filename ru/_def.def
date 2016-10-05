@@ -1,0 +1,50 @@
+﻿[_shp]
+
+add_one_on_buy:		false
+
+main_photo:		360,300
+main_photo_canvas:	360,300
+main_photo_maxratio:	true
+
+small_photo:		110,92
+small_photo_canvas:	110,92
+
+cart_photo:		110,92
+cart_photo_canvas:	110,92
+
+list_photo:		175,175
+list_photo_canvas:	175,175
+list_photo_maxratio:	true
+
+
+page_sizes:		12,21,42
+page_size_default: 	21
+
+[]
+
+[_pex]
+price_round_digits:	0
+price_usd_round_digits:	2
+[]
+
+[_kernel]
+sitename:	`Интернет магазин: Metod`
+cachesize:	10000
+[]
+
+[_a]
+extRedir:	false
+[]
+
+[_img]
+small:		100,100
+normal: 	200,200
+big:		600,600
+
+max:		600,500
+
+slide:		true
+jpgq:		80
+maxratio:	false
+
+[]
