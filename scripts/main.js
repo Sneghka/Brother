@@ -50,6 +50,6 @@ $(document).ready(function () {
     moveSlides: 1,
     slideMargin: 0,
         pager: false
-  });
+  });   
     
 });
