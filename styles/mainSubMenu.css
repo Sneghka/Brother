@@ -1,10 +1,36 @@
 .main-submenu {
     position: absolute;
-    background: #e1e1e1;
-    z-index: 100;
-    width: 100%;
+    background: #dedede;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: 1.429;
+    display: none;
+    z-index: 5;
 }
 .main-submenu li {
-    display: none;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+  
 }
 
+.products-navbar > ul > li:hover > ul.main-submenu {
+    display: block;
+}
+.main-submenu li a {
+    display: block;  
+   background-color: transparent;   
+    color: #545454;
+    font-weight: 400;
+    padding: 10px 15px;
+    text-align: left;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.main-submenu li a:hover {
+    color: #0a247d ;  /*#0a247d          #09206f*/
+    text-decoration: none;
+}
