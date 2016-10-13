@@ -1,0 +1,109 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville:400i';
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville';
+
+.cart-container .media-body {
+    vertical-align: middle;
+}
+
+.cart-header, .cart-total {
+    text-align: center;
+    font-size: 28px;
+    line-height: 28px;
+    background: #dedede;
+    padding: 15px;
+   
+}
+.cart-total {
+    text-align: right;
+}
+.main div.cart-total>p {
+    display: inline-block;
+     color: #000;
+    font-size: 30px;
+}
+
+.line {
+   font-family: 'Libre Baskerville', serif;
+    font-size: 34px;
+    line-height: 36px;
+    background: #f5f6f8;
+    text-shadow: 1px 1px 1px grey;
+    color: #adacac;
+    
+    /* background:  linear-gradient(to bottom, #0d2ea0 0%, #13245e 100%);*/
+}
+
+.cart-container .img-thumbnail {
+    width: 120px;
+    border: none;
+    box-shadow: none;
+}
+
+div.cart-container h4 {
+    color: #1f3796;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+div.cart-container p {
+    color: #545454;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.cart-item-content,
+.cart-input-quantity,
+.cart-item-summ,
+.cart-minus-button,
+.cart-item-quantity,
+.cart-plus-button,
+.cart-delete-button {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.cart-delete-sign {
+    background: #fb040e;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+}
+.cart-item-quantity {
+    width: 50%;
+}
+.cart-operation {
+      border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 26px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    width: 25px;
+     background:  linear-gradient(to bottom, #0d2ea0 0%, #13245e 100%);
+}
+.cart-item-summ {
+    text-align: center;
+    font-size: 28px;
+    color: #000;
+    font-weight: 500;
+}
+.cart-total {
+    overflow: hidden;
+}
+.cart-total button {
+    float: left;
+}
+.cart-total:after {
+    
+}
