@@ -170,9 +170,13 @@ span.icon-bar {
     color: #4d4d4d;
     line-height: 1.1;
 }
+.main > div> ul > li>a:first-child {
+    padding: 11px 35px;
+}
 
 .main > div> ul > li > a:hover {
-    color: #13245e;
+    color: #000; /*#13245e*/
+     background: #b3b1b1;
 }
 
 .main > div > ul > li.nav-basket {
@@ -333,25 +337,28 @@ div.bx-wrapper > div.bx-controls > div.bx-pager {
 
 footer {
     max-width: 1080px;
-    height: 120px;
+    height: 60px;
     /*  background: #BFBEBE;*/
     background: linear-gradient(to bottom, #ffffff 0%, #e1e1e1 100%);
-    margin: 0 auto;
-    padding: 20px 0;
+    margin: 60px auto 0;
+    padding: 7px 0 5px;
     border: 1px solid #CAC8C8;
 }
 
 footer div,
 footer nav {
     margin: 0 auto;
-    font-size: 150%;
+    font-size: 16px;
     width: 80%;
     text-align: center;
+}
+footer div {
+    font-size: 150%;
 }
 
 footer nav {
     width: 90%;
-    margin: 30px auto 0;
+    margin: 10px auto 0;
 }
 
 footer ul {

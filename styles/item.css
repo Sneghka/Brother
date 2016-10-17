@@ -110,6 +110,7 @@ section {
     margin-bottom: 10px;
     margin-top: 20px;
     font-size: 40px;
+    font-weight: 600;
 }
 
 .item-detail p {
@@ -117,12 +118,14 @@ section {
     font-size: 14px;
     line-height: 1.429;
 }
-
+.item-pricing {
+    margin-top: 40px;
+}
 .product-price {
     display: block;
-    font-size: 19px;
+    font-size: 40px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .btn-primary {
@@ -138,7 +141,7 @@ section {
     border: 1px solid #fff;
     letter-spacing: .5px;
     padding: 15px 25px;
-    font-size: 14px;
+    font-size: 22px;
     line-height: 1.429;
     -webkit-user-select: none;
     margin-right: 5px;
@@ -149,6 +152,16 @@ section {
     background-color: #1965e1;
     border-color: transparent;
 }
+.btn-primary:hover {
+    text-decoration: none;
+    background: #1556c1;
+}
+.btn-primary i {
+    font-size: 26px;
+    margin-right: 5px;
+}
+
+
 
 .nav-tabs > li {
     margin-bottom: -2px;
@@ -166,6 +179,7 @@ section {
     font-weight: 700;
     margin: 0 5px 0 0;
     padding: 15px;
+    font-size: 20px;
 }
 
 .nav-tabs>li> a:hover {
@@ -337,11 +351,15 @@ tr {
 
 .h4 {
     font-family: inherit;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.1;
     margin-bottom: 5px;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 16px;
+}
+.h4.name {
+     font-size: 14px;
+    font-weight: 400;
 }
 
 .h4+.h4 {
@@ -349,8 +367,7 @@ tr {
     margin-bottom: 10px;
 }
 
-.accessories-item .btn-info,
-.btn-primary {
+.accessories-item .btn-info {
     border-radius: 0;
     display: inline-block;
     margin-bottom: 10px;

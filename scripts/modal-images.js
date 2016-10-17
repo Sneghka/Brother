@@ -46,7 +46,7 @@ $(document).ready(function () {
 
     });
 
-    $("body").on("click", "#closeModal",function(){
+    $("body").on("click", ".modal-image",function(){
         $(".modal-image").remove();
         $(".modal-layout").remove();
     });

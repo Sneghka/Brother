@@ -27,10 +27,11 @@
     padding: 10px 15px;
     text-align: left;
     text-decoration: none;
-    white-space: nowrap;
+   /* white-space: nowrap;*/
 }
 
 .main-submenu li a:hover {
-    color: #0a247d ;  /*#0a247d          #09206f*/
+    color: #000 ;  /*#0a247d          #09206f*/
     text-decoration: none;
+    background: #b3b1b1;
 }

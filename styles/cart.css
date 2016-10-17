@@ -1,40 +1,40 @@
 @import 'https://fonts.googleapis.com/css?family=Libre+Baskerville:400i';
 @import 'https://fonts.googleapis.com/css?family=Libre+Baskerville';
-
 .cart-container .media-body {
     vertical-align: middle;
 }
 
-.cart-header, .cart-total {
+.cart-header,
+.cart-total {
     text-align: center;
     font-size: 28px;
     line-height: 28px;
     background: #dedede;
     padding: 15px;
-   
 }
+
 .cart-total {
     text-align: right;
 }
+
 .main div.cart-total>p {
     display: inline-block;
-     color: #000;
+    color: #000;
     font-size: 30px;
 }
 
 .line {
-   font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 34px;
     line-height: 36px;
     background: #f5f6f8;
-    text-shadow: 1px 1px 1px grey;
+    /*text-shadow: 1px 1px 1px grey;*/
     color: #adacac;
-    
     /* background:  linear-gradient(to bottom, #0d2ea0 0%, #13245e 100%);*/
 }
 
 .cart-container .img-thumbnail {
-    width: 120px;
+    width: 100px;
     border: none;
     box-shadow: none;
 }
@@ -76,11 +76,17 @@ div.cart-container p {
     text-align: center;
     width: 30px;
 }
+
 .cart-item-quantity {
     width: 50%;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    background: #e4e9f3;
 }
+
 .cart-operation {
-      border-radius: 4px;
+    border-radius: 4px;
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -90,20 +96,59 @@ div.cart-container p {
     text-align: center;
     vertical-align: middle;
     width: 25px;
-     background:  linear-gradient(to bottom, #0d2ea0 0%, #13245e 100%);
+    background: linear-gradient(to bottom, #0d2ea0 0%, #13245e 100%);
 }
+
 .cart-item-summ {
     text-align: center;
     font-size: 28px;
     color: #000;
     font-weight: 500;
 }
+
 .cart-total {
     overflow: hidden;
 }
+
 .cart-total button {
     float: left;
+   
 }
-.cart-total:after {
-    
+
+.cart-continue-buy {
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    background: #0d2ea0;
+}
+.customer-info-wrapper {
+    width: 60%;
+     margin: 0 auto;
+    border: 2px solid #dedede;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.customer-info-heading {
+    color: #000;
+    border-bottom: 2px solid #dedede;
+    padding: 5px 15px 0;
+    background: #dedede;
+   }
+
+.customer-info-heading h4 {
+    margin-bottom: 5px;
+}
+.order-confirm {
+    margin-top: 25px;   
+}
+.order-confirm input {
+    width: 80%;
+}
+.order-confirm button {
+    background: #fd0505;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 25px;
+       letter-spacing: .5px; 
 }
