@@ -118,9 +118,11 @@ section {
     font-size: 14px;
     line-height: 1.429;
 }
+
 .item-pricing {
     margin-top: 40px;
 }
+
 .product-price {
     display: block;
     font-size: 40px;
@@ -152,16 +154,16 @@ section {
     background-color: #1965e1;
     border-color: transparent;
 }
+
 .btn-primary:hover {
     text-decoration: none;
     background: #1556c1;
 }
+
 .btn-primary i {
     font-size: 26px;
     margin-right: 5px;
 }
-
-
 
 .nav-tabs > li {
     margin-bottom: -2px;
@@ -357,8 +359,9 @@ tr {
     margin-top: 20px;
     font-size: 16px;
 }
+
 .h4.name {
-     font-size: 14px;
+    font-size: 14px;
     font-weight: 400;
 }
 
