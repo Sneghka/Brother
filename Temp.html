@@ -14,8 +14,22 @@
     <script src="bxslider/jquery.bxslider.min.js"></script>
     <script src="scripts/main.js"></script>
     <style>
+        html, body {
+            margin:0;
+            padding: 0;
+            height: 1000px;
+            width: 1000px;
+            background-color: aqua;
+            border: 1px solid black;
+        }
+        .slider{
+            margin-top: 30px;
+           /* padding: 20px;*/
+            background: pink;
+        }
         .inner {
             float: left;
+            margin: 20px;
             /* vertical-align: middle;*/            
         }
        /* .inner:after {
@@ -30,18 +44,17 @@
 </head>
 
 <body>
-    <div id="slider" style="width: 500px; height: 500px; display: table-cell; background: red">
+    <div class="slider" style="width: 500px; height: 500px; display: block; ">
+        <button style="width: 100px; height: 50px;  background: green">КНОПКА БЛОЧНАЯ</button>
         <div class="inner" style="width: 150px; height: 150px;  background: blue">
 
         </div>
         <div class="inner" style="width: 50px; height: 50px;  background: yellow">
         </div>
-        <button onclick="myFunction()" style="width: 100px; height: 50px;  background: green">КНОПКА БЛОЧНАЯ</button>
+       
     </div>
     <script>
-       function myFunction() {
-    window.open("cart-modal.html","width=200,height=100");
-}
+      
     </script>
 </body>
 
